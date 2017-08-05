@@ -25,7 +25,29 @@
 		DFA9E1781C6C8FE800C17111 /* RtmpTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E1771C6C8FE800C17111 /* RtmpTest.m */; };
 		DFA9E17A1C6DB06D00C17111 /* NslookupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E1791C6DB06D00C17111 /* NslookupTest.m */; };
 		DFA9E17E1C708A0000C17111 /* QNNHttpTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E17D1C708A0000C17111 /* QNNHttpTest.m */; };
-		DFCEC6491C2EC01D0058EE65 /* QNNetDiag.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DFCEC6481C2EC01D0058EE65 /* QNNetDiag.h */; };
+		DFCEC6491C2EC01D0058EE65 /* QNNetDiag.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DFCEC6481C2EC01D0058EE65 /* QNNetDiag.h */; };
+		FC68A0081F35ABC4008EA72C /* NetDiagFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FC68A0061F35ABC4008EA72C /* NetDiagFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC68A00C1F35AC04008EA72C /* QNNPing.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2B76EB1C33702D00643678 /* QNNPing.m */; };
+		FC68A00D1F35AC04008EA72C /* QNNTcpPing.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9D41F91C57787500486F87 /* QNNTcpPing.m */; };
+		FC68A00E1F35AC04008EA72C /* QNNUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9D41FC1C57789B00486F87 /* QNNUtil.m */; };
+		FC68A00F1F35AC04008EA72C /* QNNRtmp.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9D41FF1C5778B600486F87 /* QNNRtmp.m */; };
+		FC68A0101F35AC04008EA72C /* QNNTraceRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9D42021C5778EA00486F87 /* QNNTraceRoute.m */; };
+		FC68A0111F35AC04008EA72C /* QNNExternalIp.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9D42081C57BEFD00486F87 /* QNNExternalIp.m */; };
+		FC68A0121F35AC04008EA72C /* QNNNslookup.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8DFFC41C60951D00174DA9 /* QNNNslookup.m */; };
+		FC68A0131F35AC04008EA72C /* QNNHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E1751C6B350800C17111 /* QNNHttp.m */; };
+		FC68A0141F35AC04008EA72C /* QNNQue.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C54261DF7180E006C4F17 /* QNNQue.m */; };
+		FC68A0151F35AC28008EA72C /* QNNetDiag.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCEC6481C2EC01D0058EE65 /* QNNetDiag.h */; };
+		FC68A0161F35AC28008EA72C /* QNNPing.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2B76EA1C33702D00643678 /* QNNPing.h */; };
+		FC68A0171F35AC28008EA72C /* QNNProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2B76ED1C33706900643678 /* QNNProtocols.h */; };
+		FC68A0181F35AC28008EA72C /* QNNTcpPing.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D41F81C57787500486F87 /* QNNTcpPing.h */; };
+		FC68A0191F35AC28008EA72C /* QNNUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D41FB1C57789B00486F87 /* QNNUtil.h */; };
+		FC68A01A1F35AC28008EA72C /* QNNRtmp.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D41FE1C5778B600486F87 /* QNNRtmp.h */; };
+		FC68A01B1F35AC28008EA72C /* QNNTraceRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D42011C5778EA00486F87 /* QNNTraceRoute.h */; };
+		FC68A01C1F35AC28008EA72C /* QNNExternalIp.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D42071C57BEFD00486F87 /* QNNExternalIp.h */; };
+		FC68A01D1F35AC28008EA72C /* QNNNslookup.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8DFFC31C60951D00174DA9 /* QNNNslookup.h */; };
+		FC68A01E1F35AC28008EA72C /* QNNHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA9E1741C6B350800C17111 /* QNNHttp.h */; };
+		FC68A01F1F35AC28008EA72C /* QNNQue.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5C54281DF71834006C4F17 /* QNNQue.h */; };
+		FC68A0201F35AD6D008EA72C /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA9E17B1C6DB22C00C17111 /* libresolv.tbd */; };
 		FD5C54271DF7180E006C4F17 /* QNNQue.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C54261DF7180E006C4F17 /* QNNQue.m */; };
 /* End PBXBuildFile section */
 
@@ -40,14 +62,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DFCEC6431C2EC01D0058EE65 /* CopyFiles */ = {
+		DFCEC6431C2EC01D0058EE65 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				DFCEC6491C2EC01D0058EE65 /* QNNetDiag.h in CopyFiles */,
+				DFCEC6491C2EC01D0058EE65 /* QNNetDiag.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -87,6 +110,9 @@
 		DFA9E17D1C708A0000C17111 /* QNNHttpTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNNHttpTest.m; sourceTree = "<group>"; };
 		DFCEC6451C2EC01D0058EE65 /* libNetDiag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetDiag.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCEC6481C2EC01D0058EE65 /* QNNetDiag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNNetDiag.h; sourceTree = "<group>"; };
+		FC68A0041F35ABC4008EA72C /* NetDiagFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetDiagFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC68A0061F35ABC4008EA72C /* NetDiagFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetDiagFramework.h; sourceTree = "<group>"; };
+		FC68A0071F35ABC4008EA72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD5C54261DF7180E006C4F17 /* QNNQue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNNQue.m; sourceTree = "<group>"; };
 		FD5C54281DF71834006C4F17 /* QNNQue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNNQue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +131,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC68A0001F35ABC4008EA72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC68A0201F35AD6D008EA72C /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +185,7 @@
 			children = (
 				DFCEC6471C2EC01D0058EE65 /* NetDiag */,
 				DF8DFFD01C61DA1B00174DA9 /* NetDiagTests */,
+				FC68A0051F35ABC4008EA72C /* NetDiagFramework */,
 				DFCEC6461C2EC01D0058EE65 /* Products */,
 				7EC51E005E7B857726052BEF /* Frameworks */,
 				0C89E1473FBE347E3F476144 /* Pods */,
@@ -162,6 +197,7 @@
 			children = (
 				DFCEC6451C2EC01D0058EE65 /* libNetDiag.a */,
 				DF8DFFCF1C61DA1B00174DA9 /* NetDiagTests.xctest */,
+				FC68A0041F35ABC4008EA72C /* NetDiagFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,14 +229,45 @@
 			path = NetDiag;
 			sourceTree = "<group>";
 		};
+		FC68A0051F35ABC4008EA72C /* NetDiagFramework */ = {
+			isa = PBXGroup;
+			children = (
+				FC68A0061F35ABC4008EA72C /* NetDiagFramework.h */,
+				FC68A0071F35ABC4008EA72C /* Info.plist */,
+			);
+			path = NetDiagFramework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FC68A0011F35ABC4008EA72C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC68A0081F35ABC4008EA72C /* NetDiagFramework.h in Headers */,
+				FC68A0151F35AC28008EA72C /* QNNetDiag.h in Headers */,
+				FC68A0161F35AC28008EA72C /* QNNPing.h in Headers */,
+				FC68A0171F35AC28008EA72C /* QNNProtocols.h in Headers */,
+				FC68A0181F35AC28008EA72C /* QNNTcpPing.h in Headers */,
+				FC68A0191F35AC28008EA72C /* QNNUtil.h in Headers */,
+				FC68A01A1F35AC28008EA72C /* QNNRtmp.h in Headers */,
+				FC68A01B1F35AC28008EA72C /* QNNTraceRoute.h in Headers */,
+				FC68A01C1F35AC28008EA72C /* QNNExternalIp.h in Headers */,
+				FC68A01D1F35AC28008EA72C /* QNNNslookup.h in Headers */,
+				FC68A01E1F35AC28008EA72C /* QNNHttp.h in Headers */,
+				FC68A01F1F35AC28008EA72C /* QNNQue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DF8DFFCE1C61DA1B00174DA9 /* NetDiagTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF8DFFD71C61DA1B00174DA9 /* Build configuration list for PBXNativeTarget "NetDiagTests" */;
 			buildPhases = (
-				2BC639100A21D41EC8EB8480 /* Check Pods Manifest.lock */,
+				2BC639100A21D41EC8EB8480 /* [CP] Check Pods Manifest.lock */,
 				9F9B0470989AE72C26C6B154 /* [CP] Check Pods Manifest.lock */,
 				DF8DFFCB1C61DA1B00174DA9 /* Sources */,
 				DF8DFFCC1C61DA1B00174DA9 /* Frameworks */,
@@ -226,7 +293,7 @@
 			buildPhases = (
 				DFCEC6411C2EC01D0058EE65 /* Sources */,
 				DFCEC6421C2EC01D0058EE65 /* Frameworks */,
-				DFCEC6431C2EC01D0058EE65 /* CopyFiles */,
+				DFCEC6431C2EC01D0058EE65 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -236,6 +303,24 @@
 			productName = NetDiag;
 			productReference = DFCEC6451C2EC01D0058EE65 /* libNetDiag.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		FC68A0031F35ABC4008EA72C /* NetDiagFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC68A00B1F35ABC4008EA72C /* Build configuration list for PBXNativeTarget "NetDiagFramework" */;
+			buildPhases = (
+				FC689FFF1F35ABC4008EA72C /* Sources */,
+				FC68A0001F35ABC4008EA72C /* Frameworks */,
+				FC68A0011F35ABC4008EA72C /* Headers */,
+				FC68A0021F35ABC4008EA72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetDiagFramework;
+			productName = NetDiagFramework;
+			productReference = FC68A0041F35ABC4008EA72C /* NetDiagFramework.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -251,6 +336,11 @@
 					};
 					DFCEC6441C2EC01D0058EE65 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					FC68A0031F35ABC4008EA72C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 57NQC2SA65;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -268,6 +358,7 @@
 			targets = (
 				DFCEC6441C2EC01D0058EE65 /* NetDiag */,
 				DF8DFFCE1C61DA1B00174DA9 /* NetDiagTests */,
+				FC68A0031F35ABC4008EA72C /* NetDiagFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -280,22 +371,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC68A0021F35ABC4008EA72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2BC639100A21D41EC8EB8480 /* Check Pods Manifest.lock */ = {
+		2BC639100A21D41EC8EB8480 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetDiagTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3317CC6757C386790A56DF6E /* Copy Pods Resources */ = {
@@ -404,6 +505,22 @@
 				DF9D41FD1C57789B00486F87 /* QNNUtil.m in Sources */,
 				DF9D42031C5778EA00486F87 /* QNNTraceRoute.m in Sources */,
 				DFA9E1761C6B350800C17111 /* QNNHttp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC689FFF1F35ABC4008EA72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC68A00C1F35AC04008EA72C /* QNNPing.m in Sources */,
+				FC68A00D1F35AC04008EA72C /* QNNTcpPing.m in Sources */,
+				FC68A00E1F35AC04008EA72C /* QNNUtil.m in Sources */,
+				FC68A00F1F35AC04008EA72C /* QNNRtmp.m in Sources */,
+				FC68A0101F35AC04008EA72C /* QNNTraceRoute.m in Sources */,
+				FC68A0111F35AC04008EA72C /* QNNExternalIp.m in Sources */,
+				FC68A0121F35AC04008EA72C /* QNNNslookup.m in Sources */,
+				FC68A0131F35AC04008EA72C /* QNNHttp.m in Sources */,
+				FC68A0141F35AC04008EA72C /* QNNQue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +663,62 @@
 			};
 			name = Release;
 		};
+		FC68A0091F35ABC4008EA72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 57NQC2SA65;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NetDiagFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Future-Entertainment-Co.Ltd..NetDiagFramework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC68A00A1F35ABC4008EA72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 57NQC2SA65;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NetDiagFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Future-Entertainment-Co.Ltd..NetDiagFramework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -575,6 +748,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FC68A00B1F35ABC4008EA72C /* Build configuration list for PBXNativeTarget "NetDiagFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC68A0091F35ABC4008EA72C /* Debug */,
+				FC68A00A1F35ABC4008EA72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
