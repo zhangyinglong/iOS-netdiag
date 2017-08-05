@@ -36,17 +36,17 @@
 		FC68A0121F35AC04008EA72C /* QNNNslookup.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8DFFC41C60951D00174DA9 /* QNNNslookup.m */; };
 		FC68A0131F35AC04008EA72C /* QNNHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E1751C6B350800C17111 /* QNNHttp.m */; };
 		FC68A0141F35AC04008EA72C /* QNNQue.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C54261DF7180E006C4F17 /* QNNQue.m */; };
-		FC68A0151F35AC28008EA72C /* QNNetDiag.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCEC6481C2EC01D0058EE65 /* QNNetDiag.h */; };
-		FC68A0161F35AC28008EA72C /* QNNPing.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2B76EA1C33702D00643678 /* QNNPing.h */; };
-		FC68A0171F35AC28008EA72C /* QNNProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2B76ED1C33706900643678 /* QNNProtocols.h */; };
-		FC68A0181F35AC28008EA72C /* QNNTcpPing.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D41F81C57787500486F87 /* QNNTcpPing.h */; };
-		FC68A0191F35AC28008EA72C /* QNNUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D41FB1C57789B00486F87 /* QNNUtil.h */; };
-		FC68A01A1F35AC28008EA72C /* QNNRtmp.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D41FE1C5778B600486F87 /* QNNRtmp.h */; };
-		FC68A01B1F35AC28008EA72C /* QNNTraceRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D42011C5778EA00486F87 /* QNNTraceRoute.h */; };
-		FC68A01C1F35AC28008EA72C /* QNNExternalIp.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D42071C57BEFD00486F87 /* QNNExternalIp.h */; };
-		FC68A01D1F35AC28008EA72C /* QNNNslookup.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8DFFC31C60951D00174DA9 /* QNNNslookup.h */; };
-		FC68A01E1F35AC28008EA72C /* QNNHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA9E1741C6B350800C17111 /* QNNHttp.h */; };
-		FC68A01F1F35AC28008EA72C /* QNNQue.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5C54281DF71834006C4F17 /* QNNQue.h */; };
+		FC68A0151F35AC28008EA72C /* QNNetDiag.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCEC6481C2EC01D0058EE65 /* QNNetDiag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC68A0161F35AC28008EA72C /* QNNPing.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2B76EA1C33702D00643678 /* QNNPing.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FC68A0171F35AC28008EA72C /* QNNProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2B76ED1C33706900643678 /* QNNProtocols.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FC68A0181F35AC28008EA72C /* QNNTcpPing.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D41F81C57787500486F87 /* QNNTcpPing.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FC68A0191F35AC28008EA72C /* QNNUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D41FB1C57789B00486F87 /* QNNUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FC68A01A1F35AC28008EA72C /* QNNRtmp.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D41FE1C5778B600486F87 /* QNNRtmp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FC68A01B1F35AC28008EA72C /* QNNTraceRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D42011C5778EA00486F87 /* QNNTraceRoute.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FC68A01C1F35AC28008EA72C /* QNNExternalIp.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9D42071C57BEFD00486F87 /* QNNExternalIp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FC68A01D1F35AC28008EA72C /* QNNNslookup.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8DFFC31C60951D00174DA9 /* QNNNslookup.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FC68A01E1F35AC28008EA72C /* QNNHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA9E1741C6B350800C17111 /* QNNHttp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FC68A01F1F35AC28008EA72C /* QNNQue.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5C54281DF71834006C4F17 /* QNNQue.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FC68A0201F35AD6D008EA72C /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA9E17B1C6DB22C00C17111 /* libresolv.tbd */; };
 		FD5C54271DF7180E006C4F17 /* QNNQue.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C54261DF7180E006C4F17 /* QNNQue.m */; };
 /* End PBXBuildFile section */
@@ -756,6 +756,7 @@
 				FC68A00A1F35ABC4008EA72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
